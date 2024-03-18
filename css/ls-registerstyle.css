@@ -1,0 +1,232 @@
+/*default misc settings*/ 
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif;}
+h1 {font-size: 90px; line-height: 64px; color: #222;}
+h2 {font-size: 46px;line-height: 54px; color: #222;}
+h4{font-size: 20px; color: #222;}
+h6{font-weight: 700; font-size: 12px;}
+p{font-size: 16px; color: #222; margin: 15px 0 2px 0;}
+section {position: absolute; display: flex; justify-content: center; align-items: center; gap: 2px;
+    flex-wrap: wrap;  overflow: hidden;}
+button.bdesc {font-size: 14px; font-weight: 600; padding: 15px 30px; color: white; background-color: #5c1d6b;
+    border-radius: 4px; cursor: pointer; border: none; outline: none; transition: 0.2;}
+/*default misc settings*/ 
+/*------------------------------------------------------*/ 
+/*------------------------------------------------------*/ 
+/*Main Header*/ 
+/*header of every page*/
+#LocalHeaderOptions
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+#headeroptions
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#headeroptions li
+{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#headeroptions li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+#headeroptions li a:hover, #headeroptions li a.current
+{
+    color: #985cb2;
+}
+#headeroptions li a.current::after, #headeroptions li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #985cb2;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+/*header of every page*/
+/*Main Header*/ 
+/*------------------------------------------------------*/ 
+/*------------------------------------------------------*/ 
+/*Registration Page*/
+.bg-container {
+    /* height: 100vh;  */
+    width: 100%; 
+    padding: 20px 0; 
+    background-size: cover; 
+    background-image: url(../img/background/accounthome_bg.jpg);
+}
+
+.reg-container
+{
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 20px 20px 28px rgba(0, 0, 0, 0.3);
+    outline-style: solid;
+    outline-color: rgb(218, 217, 217);
+    border-radius: 10px;
+    align-content: center;
+    font-size: 50px;
+}
+
+.reg-container h2
+{
+    color: #222;
+    padding-bottom: 50px;
+}
+
+.reg-container p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.reg-group
+{
+    margin-bottom: 30px;
+}
+
+.reg-group input
+{
+    width: 100%;
+    border: none;
+    border-bottom: solid;
+    border-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.reg-button
+{
+    /* display: block;
+    float: right;
+    justify-content: space-between;
+    padding: -10px 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.reg-button input
+{
+	background:linear-gradient(to bottom, #813385 5%, #99408c 100%);
+	background-color:#813385;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color: #ffffff;
+	font-family:Arial;
+	font-size:20px; 
+	padding: 10px 20px 10px 20px;
+	text-decoration:none;
+    align-items: center;
+}
+
+.reg-button input:hover
+{
+    background:linear-gradient(to bottom, #99408c 5%, #813385 100%);
+	background-color:#99408c;
+}
+
+.reg-button input:active
+{
+    position:relative;
+	top:1px;
+}
+/*Registration Page*/
+/*------------------------------------------------------*/ 
+/*------------------------------------------------------*/
+/*Footer*/
+#ftrclmn .section-f1{
+    padding: 20px 40px;
+}
+
+footer
+{   
+    background-image: url(../img/misc/ls_bdecor_0.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+}
+
+footer .colacc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .lsblogo
+{
+    margin-bottom: 30px;
+    margin-top: 2px;
+}
+
+footer h4
+{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer p
+{
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+footer a 
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom:10px;
+}
+
+footer .paydetails .plogo img
+{
+    padding: 10px 25px;
+    border: 2px solid #521562;
+    border-radius: 6px;
+}
+
+footer .paydetails img
+{
+    margin: 10px 0 15px 0;
+}
+
+footer .credits
+{
+    padding-top: 55px;
+    width: 100%;
+    text-align: center;
+}
+/*------------------------------------------------------*/ 
+/*------------------------------------------------------*/ 

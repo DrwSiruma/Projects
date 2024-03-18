@@ -1,0 +1,364 @@
+/*default misc settings*/ 
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif;}
+body {height: 100vh; width: 100%; background-size: cover;}
+h1 {font-size: 90px; line-height: 64px; color: #222;}
+h2 {font-size: 46px;line-height: 54px; color: #222;}
+h4{font-size: 20px; color: #222;}
+h6{font-weight: 700; font-size: 12px;}
+p{font-size: 16px; color: #222; margin: 15px 0 2px 0;}
+.section-p1{padding: 60px 350px;}
+.section-m1{margin: 40px 0;}
+.section-f1{padding: 60px 200px; background-color: #8977b7;}
+button.bdesc {font-size: 14px; font-weight: 600; padding: 15px 30px; color: white; background-color: #5c1d6b;
+    border-radius: 4px; cursor: pointer; border: none; outline: none; transition: 0.2;}
+/*default misc settings*/ 
+/*------------------------------------------------------*/ 
+/*------------------------------------------------------*/ 
+/*Main Header*/ 
+/*header of every page*/
+#LocalHeaderOptions
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#headeroptions
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#headeroptions li
+{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#headeroptions li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+#headeroptions li a:hover, #headeroptions li a.current
+{
+    color: #985cb2;
+}
+#headeroptions li a.current::after, #headeroptions li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #985cb2;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+/*header of every page*/
+/*Main Header*/ 
+/*------------------------------------------------------*/ 
+/*------------------------------------------------------*/ 
+/*Products Page*/
+
+#pagination
+{
+    text-align: center;
+}
+
+#pagination a
+{
+    text-decoration: none;
+    background-color: #521562;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#pdetail .pdetail-img
+{
+    width: 40%;
+    margin-right: 50px;
+    display: flex;
+}
+
+    /*per Listing style page*/
+#pdetail
+{
+    display: flex;
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+    background-color: #222;
+    padding: 80px;
+
+}
+
+#pdetail .lsdetails
+{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#pdetail .lsdetails h6
+{
+    color: white;
+}
+
+#pdetail .lsdetails h4
+{
+    padding: 40px 0 10px 0;
+    color: white;
+}
+
+#pdetail .lsdetails h2
+{
+    padding: 0 0 20px 0;
+    font-size: 26px;
+    color: white;
+}
+
+#pdetail .lsdetails span
+{
+    padding: 0 0 20px 0;
+    font-size: 26px;
+    text-align: justify;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+#pdetail .lsdetails select
+{
+    display: block;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#pdetail .lsdetails input
+{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#pdetail .lsdetails input:focus
+{
+    outline: none;
+}
+
+#pdetail .lsdetails button
+{
+    background-color: #521562;
+    color: white;
+	background:linear-gradient(to bottom, #652c74 5%, #683475 30%);
+	border-radius:8px;
+    border-width: 0;
+	cursor:pointer;
+	font-size:16px;
+	padding:13px 32px;
+}
+/*Products Page*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*Product Details*/
+#pagination
+{
+    text-align: center;
+}
+
+#pagination a
+{
+    text-decoration: none;
+    background-color: #521562;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#pdetail .pdetail-img
+{
+    width: 40%;
+    margin-right: 50px;
+    display: flex;
+}
+
+    /*per Listing style page*/
+#pdetail
+{
+    display: flex;
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+    background-color: #222;
+    padding: 80px;
+
+}
+
+#pdetail .lsdetails
+{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#pdetail .lsdetails h6
+{
+    color: white;
+}
+
+#pdetail .lsdetails h4
+{
+    padding: 40px 0 10px 0;
+    color: white;
+}
+
+#pdetail .lsdetails h2
+{
+    padding: 0 0 20px 0;
+    font-size: 26px;
+    color: white;
+}
+
+#pdetail .lsdetails span
+{
+    padding: 0 0 20px 0;
+    font-size: 26px;
+    text-align: justify;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+#pdetail .lsdetails select
+{
+    display: block;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#pdetail .lsdetails input
+{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#pdetail .lsdetails input:focus
+{
+    outline: none;
+}
+
+#pdetail .lsdetails button
+{
+    background-color: #521562;
+    color: white;
+	background:linear-gradient(to bottom, #652c74 5%, #683475 30%);
+	border-radius:8px;
+    border-width: 0;
+	cursor:pointer;
+	font-size:16px;
+	padding:13px 32px;
+}
+/*Product Details*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*Footer*/
+#ftrclmn .section-f1{
+    padding: 20px 40px;
+}
+
+footer
+{   
+    background-image: url(../img/misc/ls_bdecor_0.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+}
+
+footer .colacc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .lsblogo
+{
+    margin-bottom: 30px;
+    margin-top: 2px;
+}
+
+footer h4
+{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer p
+{
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+footer a 
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom:10px;
+}
+
+footer .paydetails .plogo img
+{
+    padding: 10px 25px;
+    border: 2px solid #521562;
+    border-radius: 6px;
+}
+
+footer .paydetails img
+{
+    margin: 10px 0 15px 0;
+}
+
+footer .credits
+{
+    padding-top: 55px;
+    width: 100%;
+    text-align: center;
+}
+/*Footer*/
+
+
+
+
